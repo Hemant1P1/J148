@@ -7,7 +7,7 @@ public class DigitCounter {
         System.out.print("Enter a number: ");
         int number = scanner.nextInt();
         
-        int count = countDigits(Math.abs(number)); // Handle negative numbers
+        int count = countDigits(Math.abs(number)); 
         
         System.out.println("Number of digits: " + count);
         scanner.close();
@@ -15,7 +15,7 @@ public class DigitCounter {
 
     public static int countDigits(int num) {
         if (num == 0) {
-            return 1; // Special case for 0
+            return 1; 
         }
         
         int count = 0;
