@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class FactorialCalculator {
     
-    // Iterative method to calculate factorial
     public static long factorialIterative(int n) {
         long fact = 1;
         for (int i = 1; i <= n; i++) {
