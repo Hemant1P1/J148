@@ -15,7 +15,7 @@ public class RemoveAdjacentDuplicates {
     public static void main(String[] args) {
         String input = "abbaca";
         String result = removeDuplicates(input);
-        System.out.println("Result: " + result); // Output: "ca"
+        System.out.println("Result: " + result); // Output is "ca"
     }
 }
 
